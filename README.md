@@ -36,31 +36,32 @@ Instructions: Repeat the school district analysis you did in this module, and re
 https://github.com/spreeti12345/School_District_Analysis/blob/main/PyCitySchools_Challenge.ipynb </br>
 
 
+## Summary 
+
 BEFORE DATA CLEANUP</br>
 
 Average Math Score = 79.0</br>
-Average Reading Score = 81.9</br>
-% Passing Math 75</br>
-% Passing Reading 86</br>
-% Overall Passing 65</br>
+Average Reading Score =81.9</br>
+% Passing Math -75</br>
+% Passing Reading- 86</br>
+% Overall Passing -65</br>
 
 AFTER DATA CLEANUP</br>
 
 Average Math Score = 78.9</br>
 Average Reading Score = 81.9</br>
-% Passing Math 74.8</br>
-% Passing Reading 85.7</br>
-% Overall Passing 64.9</br>
+% Passing Math- 74.8</br>
+% Passing Reading- 85.7</br>
+% Overall Passing-64.9</br>
 
 A slight change in Math Score, including % Passing district averages, Comparing the two dataframes above, the average show the difference when the 9th grade student Math and Reading scores from Thomas High Schools were excluded from the District Summary.</br>
 
 Thomas High School's % Overall Passing was 91, placing second. However after data cleanup Thomas High School's % Overall Passing was 65, placing eight with a significant dropin ranking. </br>
 
 
-Summary:</br>
-Average math and reading scores stay consistent across grade level when grouped by school. There is no major improvement in scores from any school.
-Math passing rates are always consistently lower across every metric, but the difference between math and reading passing rates is greater amoung lower performing schools, large schools, and higher spending per student which all seem to correlate.</br>
-The top 5 schools are all charter schools while the bottom 5 all district schools.</br>
-In general (one exception), per student spending is higher in bottom performing schools than top performing.</br>
-Schools under 2000 students have much higher passing rates than those with student populations above 2000. A comparision of 95 to 75%. The same phenomenon is seen with high and low per student spending brackets and district versus charter schools.Summarize the Average Math & Reading scores, % Passing Math and Reading scores, Overall Passing marks changes, changes that are reflected in the funding for each student (Difference each students funding is ~ $200).</br>
-All that by the updated School_District_Analysis Reading and Math Scores from Thomas High School 9th Grade have been replaced with NaNs.</br>
+-Average math and reading scores stay consistent across grade level when grouped by school. There is no major improvement in scores from any school.</br>
+-Math passing rates are always consistently lower across every metric, but the difference between math and reading passing rates is greater amoung lower performing schools,arge schools, and higher spending per student which all seem to correlate.</br>
+-The top 5 schools are all charter schools while the bottom 5 all district schools.</br>
+-In general (one exception), per student spending is higher in bottom performing schools than top performing.</br>
+-Schools under 2000 students have much higher passing rates than those with student populations above 2000. A comparision of 95 to 75%. The same phenomenon is seen with high and low per student spending brackets and district versus charter schools.Summarize the Average Math & Reading scores, % Passing Math and Reading scores, Overall Passing marks changes, changes that are reflected in the funding for each student (Difference each students funding is ~ $200).</br>
+-All that by the updated School_District_Analysis Reading and Math Scores from Thomas High School 9th Grade have been replaced with NaNs.</br>
