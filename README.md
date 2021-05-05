@@ -1,38 +1,29 @@
-# School_District_Analysis
-Jupyter notebook using python
-School District Analysis
-School District Analysis using Anaconda, Jupyter Notebook, Pandas & Python
+# School_District_Analysis</br>
 
-Overview of Project
-Here is the list of deliverables for the analysis of the school district:
 
-A high-level snapshot of the district's key metrics, presented in a table format
-An overview of the key metrics for each school, presented in a table format
-Tables presenting each of the following metrics:
-Top 5 and bottom 5 performing schools, based on the overall passing rate
-The average math score received by students in each grade level at each school
-The average reading score received by students in each grade level at each school
-School performance based on the budget per student
-School performance based on the school size
-School performance based on the type of school Before we can begin these tasks, we need to import the datasets into Jupyter Notebook using Python.
-Resources
-Data Source: PyCitySchools.ipynb file and rename it PyCitySchools_Challenge_testing.ipynb.
-Software: Python 3.9, Visual Studio Code 1.50.0, Anaconda 4.8.5, Jupyter Notebook 6.1.4, Pandas
-For more information, read the Documentation on Pandas DataFrame.
+## Overview of Project
+Here is the list of deliverables for the analysis of the school district:</br>
 
-Background Analysis and Challenges
+A high-level snapshot of the district's key metrics, presented in a table format</br>
+An overview of the key metrics for each school, presented in a table format</br>
+Tables presenting each of the following metrics:</br>
+Top 5 and bottom 5 performing schools, based on the overall passing rate</br>
+The average math score received by students in each grade level at each school</br>
+The average reading score received by students in each grade level at each school</br>
+School performance based on the budget per student</br>
+School performance based on the school size</br>
+School performance based on the type of school </br>
+
+## Resources
+School District Analysis using Anaconda, Jupyter Notebook, Pandas & Python</br>
+Data Source: PyCitySchools.ipynb file and rename it PyCitySchools_Challenge_testing.ipynb.</br>
+
+
+## Background Analysis and Challenges
 The school board has notified Maria and her supervisor that the students_complete.csv file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. Although the school board does not know the full extent of the academic dishonesty, they want to uphold state-testing standards and have turned to Maria for help. She has asked you to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. Once you’ve replaced the math and reading scores, Maria would like you to repeat the school district analysis that you did in this module and write up a report to describe how these changes affected the overall analysis.
 
-Determine Data Types Challenge Data Background
-You have been tasked with getting key metrics from the datasets. This will involve performing calculations to get sums, averages, and percentages. Before you perform these calculations, though, you should check if the numbers in these datasets are the correct data type for making those calculations, as this is considered a best practice.
 
-Here are six common data types that we may encounter in this module and that you may come across in the future:
-
-Pandas Name, Data Types & Arithmetic Operators
-
-name-of-you-image
-
-Deliverable 1: Replace Ninth-Grade Reading and Math Scores
+# Deliverable 1: Replace Ninth-Grade Reading and Math Scores
 Instructions: Using the Pandas loc method with conditional statements and comparison and logical operators, select the ninth-grade reading and math scores for Thomas High School. Then, use the Pandas NumPy module to change the reading and math scores to NaN.
 
 Deliverable 1 Requirements:
